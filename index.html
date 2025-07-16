@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeatherWise</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-container">
+    <nav class="navbar">
+      <ul>
+        <li class="active">For Business</li>
+        <li>|</li>
+        <li>Warnings</li>
+        <li>Data Suite</li>
+        <li>Forensics</li>
+        <li>Advertising</li>
+        <li>Superior Accuracy</li>
+      </ul>
+      <h3 class="time"></h3>
+    </nav>
+
+    <header class="header">
+      <!-- ✅ Background div added -->
+      <div class="bg-layer"></div>
+
+      <div class="header-inner">
+        <a class="logo" href="#"><img  src="../images/logo1.png" alt="Logo" /></a>
+        <img class="menu-icon" src="../images/burger-menu-right-svgrepo-com.svg" alt="Menu" width="30" />
+      </div>
+
+      <div class="hero">
+        <div class="searchbar">
+          <img src="../images/search-svgrepo-com.svg" alt="Search" width="20" />
+          <form action="#" method="get">
+            <input type="text" name="query" placeholder="Search by City Name" />
+          </form>
+          <div class="search-options">
+            <div class="displayed-item">
+              <span class="loc">Location</span>
+              <img src="../images/dropdown-arrow-svgrepo-com.svg" alt="Dropdown" width="20" />
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-locations">
+          <h4 class="loc-header">Recent Locations</h4>
+          <div class="weather-cards-container">
+            <!-- Cards (Lahore, Islamabad, etc.) -->
+              <div class="weather-card">
+                <h3>Lahore</h3>
+                <h4>Pakistan</h4>
+                <div class="temp-info">
+                  <img class="weatherImg" src="weather.svg" alt="Weather" width="60" />
+                  <span class="temp">32°C</span>
+                </div>
+                <span class="status"></span>
+              </div>
+            
+            <!-- Add other cities... -->
+            <div class="weather-card">
+              <h3>Islamabad</h3>
+              <h4>Pakistan</h4>
+              <div class="temp-info">
+                <img class="weatherImg" src="weather.svg" alt="Weather" width="60" />
+                <span class="temp">29°C</span>
+              </div>
+              <span class="status"></span>
+            </div>
+            <div class="weather-card">
+              <h3>Karachi</h3>
+              <h4>Pakistan</h4>
+              <div class="temp-info">
+                <img class="weatherImg" src="weather.svg" alt="Weather" width="60" />
+                <span class="temp">34°C</span>
+              </div>
+              <span class="status"></span>
+            </div>
+            <div class="weather-card">
+              <h3>Murree</h3>
+              <h4>Pakistan</h4>
+              <div class="temp-info">
+                <img class="weatherImg" src="weather.svg" alt="Weather" width="60" />
+                <span class="temp">18°C</span>
+              </div>
+              <span class="status"></span>
+            </div>
+            <div class="weather-card">
+              <h3>Sialkot</h3>
+              <h4>Pakistan</h4>
+              <div class="temp-info">
+                <img class="weatherImg" src="weather.svg" alt="Weather" width="60" />
+                <span class="temp">31°C</span>
+              </div>
+              <span class="status"></span>
+            </div>
+            <div class="weather-card">
+              <h3>New York</h3>
+              <h4>USA</h4>
+              <div class="temp-info">
+                <img class="weatherImg" src="weather.svg" alt="Weather" width="60" />
+                <span class="temp">37°C</span>
+              </div>
+              <span class="status"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/DOM.js"></script>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>City Weather</title>
+    <link rel="stylesheet" href="../css/details.css" />
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo">
+        <img height="100px" src="../images/logo1.png" alt="">
+    </div>
+    <div class="main-container">
+        <h1 id="city-name">Loading...</h1>
+        <div id="weather-info">
+            <div class="temperature">
+                <img class="weatherImg" src="rain.png" alt="Weather" width="150" />
+                <span id="celcius"></span>
+            </div>
+            <div class="status"></div>
+            <div class="more-details">
+                <div class="detail-box">
+                    <strong>Feels Like:</strong>
+                    <span class="feels-like">33°C</span>
+                </div>
+                <div class="detail-box">
+                    <strong>Humidity:</strong>
+                    <span class="humidity">75%</span>
+                </div>
+                <div class="detail-box">
+                    <strong>Wind:</strong>
+                    <span class="wind">17 km/h</span>
+                </div>
+                <div class="detail-box">
+                    <strong>Pressure:</strong>
+                    <span class="pressure">998 mb</span>
+                </div>
+                <div class="detail-box">
+                    <strong>Visibility:</strong>
+                    <span class="visibility">10 km</span>
+                </div>
+                <div class="detail-box">
+                    <strong>Sunset:</strong>
+                    <span class="sunset"></span>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../js/details.js"></script>
+</body>
+
+</html>
